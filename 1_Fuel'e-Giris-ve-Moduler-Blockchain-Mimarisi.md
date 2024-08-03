@@ -2,7 +2,7 @@
 
 Yayın Kaydı: [Kayıt](https://youtu.be/T6qef5dZKmg)
 
-##### Fuel İsmi Nereden Geliyor?
+### Fuel İsmi Nereden Geliyor?
 
 Öncelikle Fuel isminin nereden geldiğinden bahsedildi Fuel Network'ün asıl amacının gas faktörünü minimize etmek hatta tamamen ortadan kaldırmak olması ve fuel == gas kelimelerinin anlamdaşlığı bu süreçte yön verici oldu.
 
