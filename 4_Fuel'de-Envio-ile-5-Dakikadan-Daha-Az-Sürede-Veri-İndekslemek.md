@@ -2,19 +2,19 @@
 
 Yayın Kaydı: [Kayıt](https://youtu.be/BqiCjLKorRs?si=WS2OnhfN976TlA0r)
 
-##### Akıllı Kontrat Mühendisinin ve DApp Geliştiricinin Sorumlulukları:
+### Akıllı Kontrat Mühendisinin ve DApp Geliştiricinin Sorumlulukları:
 
 - Gas (Ağ ücreti) Maliyeti
 - Veriyi Elde Etme Maliyeti
 - Verinin Erişilebilirliği
 
-##### Akıllı Kontrat Tasarımı
+### Akıllı Kontrat Tasarımı
 
 ![1st image](/assets/images/4/1.jpg "1st image")
 
 Verileri odağımıza alarak akıllı kontrat tasarlarken off-chain hesaplama, ağ ücretleri ve veri erişilebilirliğinin en ortada en efektif olabileceği yeri düşünerek hareket ederiz.
 
-##### Direkt Depolamadan Okusak?
+### Direkt Depolamadan Okusak?
 
 Depolamayı Tanımlayalım:
 ![2nd image](/assets/images/4/2.png "2nd image")
@@ -32,7 +32,7 @@ Bu yöntemde birkaç sorun ile karşılaşıyoruz:
 - Sadece son kontrat durumu
 - Veriyi birleştirmek ya da filtrelemenin mümkün olmaması
 
-##### İndeksleme Nedir?
+### İndeksleme Nedir?
 
 Veri İndeksleme Şeması:
 ![4th image](/assets/images/4/4.jpg "4th image")
@@ -48,13 +48,13 @@ Sway'de Yapılışı:
 Solidity'de Yapılışı:
 ![6th image](/assets/images/4/6.png "6th image")
 
-##### Ağ Kaşifine bir Bakış
+### Ağ Kaşifine bir Bakış
 
 ![7th image](/assets/images/4/7.jpg "7th image")
 
 [Kaynak Link](https://app.fuel.network/tx/0x2164dfd7a16c7bec4a63e9c0b986edae41707f82e080ab5853829e6312523366/simple)
 
-##### Sway Farm
+### Sway Farm
 
 ![8th image](/assets/images/4/8.jpg "8th image")
 
@@ -76,6 +76,6 @@ Terminale yazılacaklar:
 - kontrat adresinizi yapıştırın
 - bitirdiğinizi seçin
 
-##### Örnek: İndeksleyici Deploylama
+### Örnek: İndeksleyici Deploylama
 
 Spark-Fi: [Link](https://sprk.fi/)
