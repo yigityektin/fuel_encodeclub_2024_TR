@@ -2,14 +2,14 @@
 
 Yayın Kaydı: [Kayıt](https://youtu.be/JzQpITmqSj4)
 
-##### Fuel'i Özel Kılan Farklar Neler?
+### Fuel'i Özel Kılan Farklar Neler?
 
 - Fuel Sanal Makinesi: FuelVM
 - UTXO Modeli ile birlikte Paralel İşlem Yürütme
 - Blokzincir Durumlarını Minimize Etmek
 - Ethereum ile birlikte Çalışılabilirlik
 
-##### UTXO Modeli
+### UTXO Modeli
 
 Birden fazla durum bir ağaç şeklinde aynı anda tutulabilir.
 
@@ -19,7 +19,7 @@ Bu modelde, her işlem önceki işlemlerin kullanılmamış çıktılarından ol
 
 ![2nd image](/assets/images/2/2.jpg "2nd image")
 
-##### Temel Yapı
+### Temel Yapı
 
 - Fuel: Genel Mimari
 - Sepolia Testnet Ağı: Ethereum'daki Fuel L2 Testneti
@@ -28,7 +28,7 @@ Bu modelde, her işlem önceki işlemlerin kullanılmamış çıktılarından ol
 - Fuels: Fuel'in SDK yani geliştirici kiti. TypeScript ve Rust olarak 2 dilde vardır.
 - Fuelup: Geliştirici aletinin yönetimini sağlayan parçadır. nvm ya da rustup'a benzerdir.
 
-##### Fuel dApp'lerini Farklı Kılan Özellikler
+### Fuel dApp'lerini Farklı Kılan Özellikler
 
 ![3rd image](/assets/images/2/3.jpg "3rd image")
 
@@ -38,7 +38,7 @@ Bu modelde, her işlem önceki işlemlerin kullanılmamış çıktılarından ol
 - Ethereum, geliştirme ve deployment için Hardhat ve Foundry'e sahipken; Fuel, forc'a sahiptir.
 - Ethereum, geliştirici kiti olarak Web3.js ve ethers.js kullanabilirken; Fuel, Fuels TS ve Fuels RS kullanabilir.
 
-##### Solidity ve Sway Arasındaki Farklılıklar
+### Solidity ve Sway Arasındaki Farklılıklar
 
 ![4th image](/assets/images/2/4.jpg "4th image")
 
@@ -47,18 +47,18 @@ Bu modelde, her işlem önceki işlemlerin kullanılmamış çıktılarından ol
 - Solidity, EVM'e özel tasarlanmıştır; Sway, FuelVM'in desteklediği her blockchaine uyumludur.
 - Solidity, tekli içerik tutabilirken; Sway, birden fazla içeriği tutarak hareket edebilir.
 
-##### Program Tipleri
+### Program Tipleri
 
 - Solidity ile sadece Akıllı Kontratlar ve Kütüphaneler kodlanabilir.
 - Sway ile Akıllı Kontratlar, Scriptler, Predicateler ve Kütüphaneler kodlanabilir.
 
-##### Kod Karşılaştırması
+### Kod Karşılaştırması
 
 ![xth image](/assets/images/2/aftercontextsol.png "xth image")
 
 ![yth image](/assets/images/2/aftercontextsway.png "yth image")
 
-##### Yazım Şekli ve Depolama
+### Yazım Şekli ve Depolama
 
 ![5th image](/assets/images/2/5.jpg "5th image")
 
@@ -67,14 +67,14 @@ Bu modelde, her işlem önceki işlemlerin kullanılmamış çıktılarından ol
 - Solidity, depolama manipülasyonları kodlama dillerinin konseptlerine dayanır; Sway, depolama manipülasyonları kendi kütüphanesine ve kullanıcı tarafından tanımlanan tiplere dayanır.
 - Solidity, namespacing ya da depolama alanı değişimine yapısı gereği izin vermez; Sway, depolama namespacing'ine izin verir ve depolama alanlarını nerede istediğinize göre değiştirebileceğiniz bir yapıya sahiptir.
 
-##### Standart Kütüphaneler
+### Standart Kütüphaneler
 
 ![6th image](/assets/images/2/6.jpg "6th image")
 
 - Solidity, standart kütüphaneye sahip değildir. Open-Zeppelin gibi birkaç modüle sahiptir.
 - Sway, standart kütüphaneye ve çekirdek bir kütüphaneye sahiptir. Başlangıçtaki süreçleri ya da import ederken versiyon farklarını dert etmenize gerek olmaz.
 
-##### Fungible Tokenlar
+### Fungible Tokenlar
 
 ![7th image](/assets/images/2/7.jpg "7th image")
 
@@ -82,7 +82,7 @@ Bu modelde, her işlem önceki işlemlerin kullanılmamış çıktılarından ol
 
 - Sway, FuelVM'in desteklediği her native varlığı destekleyebilir. Uygulama seviyesinde tokenlara sahip olabilir. Sway SRC-20 standartı özelleştirilebilir. Fuel'deki tüm akıllı kontratlar mint ve burn özelliğine yapısı gereği direkt sahiptir. Fuel'de çağrılar herhangi bir native varlığı transfer etmeye yarayabilir. Scriptler sayesinde onaylama ve transfer süreci tek bir işlem içerisinde yapılabilir.
 
-##### Sway Standartları Nedir?
+### Sway Standartları Nedir?
 
 ![8th image](/assets/images/2/8.jpg "8th image")
 
@@ -90,7 +90,7 @@ Sway standartları, import etmeniz ve Sway dilindeki standartları kullanmanız 
 
 İhtiyacınız olan standartı bulun ve standart ABI'ını kontratınıza aktarın.
 
-##### Sway Standartları: Native Varlıklar
+### Sway Standartları: Native Varlıklar
 
 - SRC-20: Sway dilini kullanan Native varlıkların standart API ile implementasyonunu içerir.
 - SRC-3: Fungible varlıklar için mint ve burn mekanizmasını sağlar.
@@ -99,7 +99,7 @@ Sway standartları, import etmeniz ve Sway dilindeki standartları kullanmanız 
 - SRC-6: Varlık depolarının implementasyonu için tanımlanan standart API'dır.
 - SRC-13: Soulbound Adresi, Native varlıkların soulbound olarak kilitlenmesini sağlar.
 
-##### Standartların Kullanımı
+### Standartların Kullanımı
 
 Alttakini, projenişn Forc.toml dosyasına ekleyin:
 
@@ -109,18 +109,18 @@ Alttakini, projenişn Forc.toml dosyasına ekleyin:
 
 ![ath image](/assets/images/2/swaystandards2.png "ath image")
 
-##### İhtiyacınız Olan İndirmeler
+### İhtiyacınız Olan İndirmeler
 
 - Node.js
 - Fuel Geliştirici Aleti
 
 Detaylar: [İndirmeler](https://tinyurl.com/FuelSetup)
 
-##### Fuel Ağı ve NFT'ler
+### Fuel Ağı ve NFT'ler
 
 Fuel Ağındaki tüm NFT'ler Native varlıklardır.
 
-##### Önce Temeller
+### Öncelikle Temeller
 
 Hangi Standartlar Kullanılmalı:
 
@@ -130,11 +130,11 @@ Hangi Standartlar Kullanılmalı:
 
 Native Varlık Kütüphanesi: Standartlar dahilindeki basit fonksiyonları implemente etmek içindir.
 
-##### NFT Koleksiyonları
+### NFT Koleksiyonları
 
 Depo: [NFT Koleksiyonları](https://tinyurl.com/NFTonFuel)
 
-##### NFT Koleksiyonu Kodlamaya Başlangıç
+### NFT Koleksiyonu Kodlamaya Başlangıç
 
 ![15th image](/assets/images/2/15.jpg "15th image")
 ![16th image](/assets/images/2/16.jpg "16th image")
@@ -151,6 +151,6 @@ Terminalinize girdikten sonra sırasıyla kullanmanız gereken kodlar:
 
 hello_world kontratınızı ağa aktarmış oldunuz.
 
-##### Bu Yayının Önemli Kaynakları:
+### Bu Yayının Önemli Kaynakları:
 
 ![19th image](/assets/images/2/19.jpg "19th image")
