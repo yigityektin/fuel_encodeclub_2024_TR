@@ -12,7 +12,7 @@ Fuel V1 ile Ethereum'da deploylanmış ilk Optimistic Rollup olmanın yanı sır
 
 Fuel, Rollupların işletim sistemi olarak da adlandırılan, yüksek performanslı ve sürdürülebilir Rolluplar inşa etmek için bir takım araçlardan oluşan bir mimaridir.
 
-![4th image](/assets/images/4.png "4th image")
+![4th image](/assets/images/1/4.png "4th image")
 
 ##### Fuel'in Doğuşu
 
@@ -27,13 +27,13 @@ Halihazırdaki VM'lerin birbirlerinin biraz değiştirilmiş kopyaları olmalar�
 5. Düşük Seviyede Sanal Makine
 6. Rahat Geliştirici Ortamı
 
-![6th image](/assets/images/6.jpg "6th image")
+![6th image](/assets/images/1/6.jpg "6th image")
 
 ##### UTXO Modeli ve Predicate'ler
 
 Fuel, UTXO temelli, daha rahat geliştirilebilir ve kullanışlı bir işlem modeline sahiptir. Aynı zamanda Predicate adını verdiğimiz on-chain fonksyionlar ile birlikte Akıllı Kontratların getirdiği depolama yükünden bir nebze kurtulabildiğimiz bir model öne sürülüyor.
 
-![7th image](/assets/images/7.jpg "7th image")
+![7th image](/assets/images/1/7.jpg "7th image")
 
 ##### Script'ler
 
@@ -51,7 +51,7 @@ Predicateler ise transfer ve işlemleri yapabilmek için durumsuz kodlardır. Pr
 
 FuelVM'i de diğer VM'lerden ayıran birkaç yapısal farklılık var. İşte FuelVM'in yapısı ve farklılıklarından bazıları:
 
-![11th image](/assets/images/11.jpg "11th image")
+![11th image](/assets/images/1/11.jpg "11th image")
 
 ##### Sway
 
@@ -61,7 +61,7 @@ Fuel ağının kendi kodlama dili olan Sway'den bahsederken de bir akıllı kont
 
 Fuel ağının genel yapısından da aşağıdaki görseldeki şekilde bahsedildi:
 
-![13th image](/assets/images/13.jpg "13th image")
+![13th image](/assets/images/1/13.jpg "13th image")
 
 Ayrıca Fuel ağının çıkış tarihi olarak 2024, Q3'ün sonu tahmin ediliyor.
 
