@@ -2,13 +2,13 @@
 
 Yayın Kaydı: [Kayıt](https://youtu.be/XXgyc6wAbtw?si=1PkAzvMIYFyz3PU-)
 
-##### Envio ve Fuel
+### Envio ve Fuel
 
 Diğer protokollere kıyasla veri indekslemede büyük hızlara ulaşan Envio gün sonunda Fuel ile benzer amaçlarda hareket edebileceğini farketti.
 
 Özellikle FuelVM'in yapısı efektiflik ve güç için Envio tarafından tercih edilme sebebi oldu.
 
-##### Özel Sos: HyperFuel
+### Özel Sos: HyperFuel
 
 FuelVM tercihinden sonra, tercihte karar verici olan HyperFuel veri okumak için tasarlanmış bir node yapısıdır. Konsensüs, execution gibi ayrık yapılardan ayrı olduğu için daha efektif çalışma ortamı sunar. HyperFuel, Rust tabanlı bir program olup Parquet dosyaları ile yedekleme sistemi yaratmıştır.
 
@@ -36,7 +36,7 @@ HyperIndex, akıllı kontrat tarafından desteklenen bir indeksleyicidir.
 
 **Bu yayında HyperFuel'e odaklanılacak.**
 
-##### HyperFuel ve Özellikleri
+### HyperFuel ve Özellikleri
 
 ![3rd image](/assets/images/3/3.jpg "3rd image")
 
@@ -46,7 +46,7 @@ HyperIndex, akıllı kontrat tarafından desteklenen bir indeksleyicidir.
 - Predicate'in tüm girdileri
 - x kontratını çağırma ile gelen tüm veriler
 
-##### Örnekler
+### Örnekler
 
 ##### 1. Örnek: asset_id'yi alan tüm adresler
 
@@ -73,7 +73,7 @@ Blok 0'dan 1.3 milyona kadarki bloklarda alınan tüm varlıkları değerlendird
 Tüm verileri değerlendirme sürecinin çıktıları:
 ![5th image](/assets/images/3/5.jpg "5th image")
 
-##### HyperFuel Query
+### HyperFuel Query
 
 ![6th image](/assets/images/3/6.jpg "6th image")
 
@@ -89,7 +89,7 @@ Fuel üzerindeki tüm NFT'ler ve bakiyelerinin verilerini indeksliyoruz. Çok b�
 
 Örnekleri kendiniz denemek isterseniz ya da kodların tam haline ulaşmak isterseniz kaynaklardaki linklerden örneklerin GitHub linklerine erişebilirsiniz.
 
-##### Bu Yayının Önemli Kaynakları
+### Bu Yayının Önemli Kaynakları
 
 - [Envio Dokümantasyonu](https://docs.envio.dev/)
 - [HyperFuel Dokümantasyonu](https://docs.envio.dev/docs/HyperSync/hyperfuel)
